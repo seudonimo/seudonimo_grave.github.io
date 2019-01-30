@@ -1,16 +1,16 @@
 # Site settings
-title:          Note for Music server
-description:    "Minimal Jekyll theme for storytellers"
+title:          Note for Seudonimo
+description:    "Note for Seudonimo"
 baseurl:        ""
-url:            "https://musicserver.github.io"
+url:            "https://seudonimo.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://musicserver.github.io
+  name:         Seudonimo
+  url:          https://seudonimo.github.io
   email:        mycarey@gmail.com
 
 # Build settings
