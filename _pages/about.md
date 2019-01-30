@@ -5,9 +5,16 @@ author: "Seudonimo"
 permalink: /about/
 ---
 
-Name 
-  Seudonimo
-Mail
+#### Name 
+
+​	seudonimo
+
+#### Job
+
+​	타칭 개발자
+
+#### Mail
   mycarey@gmail.com
-Concern
-  TBD
+#### Concern
+
+​	어려움 해결
