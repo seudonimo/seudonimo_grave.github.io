@@ -1,8 +1,8 @@
 # Site settings
-title:          Tale
+title:          Note for Music server
 description:    "Minimal Jekyll theme for storytellers"
 baseurl:        ""
-url:            "https://juan.github.io"
+url:            "https://musicserver.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
@@ -10,7 +10,7 @@ google_analytics: UA—XXXXXXXX-X
 # Author
 author:
   name:         Chester How
-  url:          https://juan.github.io
+  url:          https://musicserver.github.io
   email:        mycarey@gmail.com
 
 # Build settings
