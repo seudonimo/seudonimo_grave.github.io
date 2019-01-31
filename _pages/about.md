@@ -11,10 +11,10 @@ permalink: /about/
 
 #### Job
 
-​	타칭 개발자
+​	그래도 개발자
 
 #### Mail
   mycarey@gmail.com
 #### Concern
 
-​	어려움 해결
+​	현실적인 어려움 해결
