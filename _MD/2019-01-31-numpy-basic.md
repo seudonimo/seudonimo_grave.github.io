@@ -39,7 +39,35 @@ print("x-y")
 print(np.substract(x, y))
 #[[-4, -4]
 # [-4, -4]]
+```
+행렬의 +, - 연산은 예상(?)과 마찬가지로 아래와 같다.
+$$
+x = \left[\begin{array}{r} 1&2\\
+3&4\end{array}\right], 	
+y = \left[\begin{array}{r} 5&6\\
+7&8\end{array}\right],
+x + y = \left[\begin{array}{r} 6&8\\
+10&12\end{array}\right], x - y = \left[\begin{array}{r} -4&-4\\
+-4&-4\end{array}\right]
+$$
 
+
+#### multiplication operations
+
+numpy package는 computer science관련 계산에 장점이 있는 만큼 곱 연산(multiplication operation) 에서 편리한 연산자를 제공한다. multiply연산은 요소 별, 혹은 성분 곱 연산을 제공하며, 행렬 곱은 dot 연산자를 통해 구할 수 있다.
+$$
+x = \left[\begin{array}{r} 1&2\\
+3&4\end{array}\right], 	
+y = \left[\begin{array}{r} 5&6\\
+7&8\end{array}\right],
+x * y = \left[\begin{array}{r} 5&12\\
+21&32\end{array}\right], 
+x ∙ y = \left[\begin{array}{r} 19&22\\
+43&50\end{array}\right]
+$$
+
+
+```python
 print('x*y")
 print(np.multiply(x, y))
 #[[5, 12]
@@ -49,11 +77,26 @@ print('x dot y")
 print(np.dot(x, y))
 #[[19, 22]
 # [43, 50]]
+```
 
+dot 연산자 덕분에 vector의 내적, 스칼라 등의 연산에 용이하게 쓰이
+
+
+
+#### Other operations
+
+$$
+
+$$
+
+```python
+# 나누기
 print(np.divide(x, y))
 #[[0.2,, 0.33333]
 # [0.42857, 0.5]]
 
 print(np.sqrt(x))
+
+print(x.T)
 ```
-Matlab과는 달리, numpy에서의 곱(multiply)는 요소별 곱이다. Numpy에선 행렬 곱(dot)을 지원하며, 덕분에 vector의 내적, 스칼라 등의 연산에 용이하다.
+
