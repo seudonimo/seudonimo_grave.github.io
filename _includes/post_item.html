@@ -1,0 +1,8 @@
+<h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+<p class="post-date"><i class="fa fa-calendar" title="date"></i> {{ post.date | date: site.date_format }}</p>
+<div class="post-summary">
+    {{ post.description | default: post.excerpt | strip_html | truncatewords: 75 }}
+</div>
+<div class="clearfix"></div>
+{% include post_tags.html tags=post.tags %}
+
