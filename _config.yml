@@ -23,6 +23,20 @@ sass:
   sass_dir:     _sass
   style:        compressed
 
+# ...
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
+# ...
+defaults:
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+# ...
+
 # Gems
 plugins:
   - jekyll-feed
