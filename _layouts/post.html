@@ -23,7 +23,8 @@ comments: true
   <div class="post-line"></div>
 
   {{ content }}
-
+  <br>
+  {% include post_tags.html tags=page.tags %}
 </div>
 
 <div id="disqus_thread"></div>
