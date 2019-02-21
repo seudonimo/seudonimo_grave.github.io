@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<ul id="post-list">
+<ul id="post-list">tag : 
     {% for post in site.posts %}
         {% if post.tags contains page.name %}
             {<li class="post-item">% include post_item.html %}</li>

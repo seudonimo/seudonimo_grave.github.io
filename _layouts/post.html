@@ -24,9 +24,12 @@ comments: true
 
   {{ content }}
   <br>
-  {% include post_tags.html tags=page.tags %}
-</div>
 
+  
+</div>
+<tail class="post-footer">
+  {% include post_tags.html tags=page.tags %}
+</tail>
 <div id="disqus_thread"></div>
 <script>
 

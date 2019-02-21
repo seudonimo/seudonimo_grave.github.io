@@ -80,6 +80,17 @@ footer,
   }
 }
 
+
+tail {
+  font-family: $serif-secondary;
+  padding: 2rem 0;
+  text-align: left;
+
+  span {
+    font-size: .8rem;
+  }
+}
+
 footer {
   font-family: $serif-secondary;
   padding: 2rem 0;
