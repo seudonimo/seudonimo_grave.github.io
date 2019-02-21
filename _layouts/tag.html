@@ -4,7 +4,7 @@ layout: default
 <ul id="post-list">
     {% for post in site.posts %}
         {% if post.tags contains page.name %}
-            {% include item.html %}
+            {<li class="post-item">% include post_item.html %}</li>
         {% endif %}
     {% endfor %}
 </ul>
