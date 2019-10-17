@@ -1,4 +1,8 @@
-# DL with Simple Network
+# How to make your own NN(Neural Network)
+이 문서는 간단한 네트웍을 생각하고 구성하고, 훈련하고 그리고 테스트 하는 과정을 순서대로 나열해본 기록이다. 인터넷에 좋은 예제들도 많지만 그냥 따라하기 보다는 생각을 하면서 해보고 싶었던 걸 기록해 보았다.
+
+목표 : 간단한 구조의 NN을 
+
 TODO : 간단한 구조의 network를 keras로 모델링, 훈련, 확인한다.
 
 Dataset : MNIST Digit data
