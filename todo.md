@@ -15,7 +15,8 @@
 - [ ] 2019-10-15-DL-History in Keras.md	
 - [ ] 2019-10-15-DL-K-Fold_Cross_Validation.md	
 - [ ] 2019-10-15-DL-Weight_Initialization.md
-- [ ] 2019-10-15-Python-Data_Type.md	Create 
+- [ ] 2019-10-15-Python-Data_Type.md
+- [ ] Visualize Convolution Filter
 ## Embeded Device
 - [ ] 2019-01-31-kernel-power-management.md	
 - [ ] workqueue.md	
