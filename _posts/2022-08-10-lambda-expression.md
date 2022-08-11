@@ -2,7 +2,7 @@
 layout: post
 title:  "Python Lambda Expression"
 author: "Seudonimo"
-tag: lambda python
+tags: lambda python
 ---
 
 # Lambda Expression
