@@ -2,6 +2,8 @@
 layout: post
 title:  "Numpy Basic"
 author: "Seudonimo"
+use_math: true
+tag: numpy python
 ---
 
 

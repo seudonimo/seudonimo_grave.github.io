@@ -20,4 +20,9 @@
   {% if site.google_analytics and jekyll.environment == 'production' %}
   {% include analytics.html %}
   {% endif %}
+  <!-- Include Mathjax for mathmatics -->
+  {% if page.use_math %}
+  {% include mathjax_support.html %}
+  {% endif %}
+
 </head>
