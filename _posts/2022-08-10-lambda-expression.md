@@ -5,16 +5,16 @@ author: "Seudonimo"
 ---
 
 # Lambda Expression
-Lambda Expression은 함수를 하나의 식(Expression)으로 표현한 inline function으로 단 한 줄로 def로 정의된 함수와 같은 역할을 간단히 구현할 수 있으며 주로 함수의 인자로 많이 사용할 수 있다. 
+Lambda Expression은 함수를 하나의 식(Expression)으로 표현한 inline function으로 단 한 줄로 파이썬에서 def로 정의된 함수와 같은 역할을 간단히 구현할 수 있으며 주로 함수의 인자로 많이 사용할 수 있다. 
+
 
 ## Syntax
-syntax는 아래와 같으며 표현식의 결과값이 반환된다.
+사용 문법은 아래와 같으며 표현식의 결과값이 반환된다.
 ``` python
 lambda arguments : expression
 ```
 
 ## Simple Example
-
 ### Single Argument
 
 입력 변수 a에 10을 더한 값을 표현하는 함수는 아래와 같다.
@@ -36,10 +36,9 @@ print(x(5))
 x = lambda a, b : a*b
 print(x(5, 6))
 ```
-
-
+<br/><br/>
+-------
 ## Power of Lambda Expression
-
 ### Multiple usage
 람다 표현식의 장점은 function 내부의 inline으로 표현하는 익명함수(anonymous function)일 것이다.
 아래의 예제처럼 하나의 명세로 여러가지의 function을 정의할 수 있다.
@@ -90,3 +89,5 @@ List에서 필요한 요소들만 반환할 수 있다.
 li = [1, 2, 3, 4, 5, 6, 7, 8]
 rslt = list(filter(lambda x : x > 4 and x < 7, li))
 # [5, 6]
+```
+
