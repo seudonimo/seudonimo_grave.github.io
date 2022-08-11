@@ -2,6 +2,7 @@
 layout: post
 title:  "Big-O Notation"
 author: "Seudonimo"
+tags: Big-O algorithm 코테
 ---
 
 # Big-O Notation
