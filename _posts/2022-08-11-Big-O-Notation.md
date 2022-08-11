@@ -2,9 +2,9 @@
 layout: post
 title:  "Big-O Notation"
 author: "Seudonimo"
-tags: Big-O algorithm 코테
-use_math: true
+tags: Big-O algorithm
 comments: true
+use_math: true
 ---
 
 # Big-O Notation
